@@ -16,19 +16,22 @@ export default [
     rules: {
       "react/react-in-jsx-scope": "off",
       "react/jsx-uses-react": "off",
-      "prettier/prettier": [
-        "error",
-        {
-          // Prettierルールを追加
-          semi: true,
-          singleQuote: false,
-          trailingComma: "es5",
-          tabWidth: 2,
-          useTabs: false,
-          bracketSpacing: true,
-          jsxBracketSameLine: false,
-        },
-      ],
+      // "prettier/prettier": [
+      //   "error",
+      //   {
+      //     // Prettierルールを追加
+      //     semi: true,
+      //     singleQuote: false,
+      //     trailingComma: "es5",
+      //     tabWidth: 2,
+      //     useTabs: false,
+      //     bracketSpacing: true,
+      //     jsxBracketSameLine: false,
+      //   },
+      // ],
     },
+  },
+  {
+    ignores: ["node_modules/", "dist/"],
   },
 ];
